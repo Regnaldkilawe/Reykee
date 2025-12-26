@@ -1,2 +1,302 @@
 # Reykee
 WE COME TO MY BIO
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reykee | Artist • Developer • Entrepreneur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reykee is a Tanzanian Afrobongo artist, website & app developer, and entrepreneur. Founder of Reggy Tronix, Reggy Luxe, and Oddsgram." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --gold: #c9a44c;
+      --dark: #0a0a0a;
+      --dark2: #111;
+      --text: #e0e0e0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--dark);
+      color: white;
+      line-height: 1.7;
+      scroll-behavior: smooth;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+        url("images/background.jpg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero-content {
+      max-width: 850px;
+      animation: fadeUp 1.5s ease;
+    }
+
+    .hero img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--gold);
+      margin-bottom: 25px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .hero h3 {
+      color: var(--gold);
+      font-weight: 400;
+      margin: 12px 0 25px;
+      font-size: 1.05rem;
+    }
+
+    .hero p {
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    /* BUTTONS */
+    .buttons {
+      margin-top: 35px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 12px 26px;
+      border-radius: 40px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.35s ease;
+    }
+
+    .btn:hover {
+      background: var(--gold);
+      color: #000;
+      transform: translateY(-4px);
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 90px 20px;
+      animation: fadeUp 1.2s ease;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: var(--gold);
+      margin-bottom: 45px;
+    }
+
+    .text {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    /* GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--dark2);
+      border-radius: 18px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.35s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #cfcfcf;
+      font-size: 0.95rem;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #000;
+      padding: 35px;
+      text-align: center;
+      color: #777;
+      font-size: 0.85rem;
+    }
+
+    /* ANIMATION */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(35px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <img src="images/profile.jpg" alt="Reykee portrait" />
+
+    <h1>Reykee</h1>
+    <h3>
+      Afrobongo Artist • Website & App Developer • Entrepreneur
+    </h3>
+
+    <p>
+      Tanzanian creative blending Swahili roots with Afrobeat,
+      Dancehall, Pop, and Reggae — while building powerful
+      digital products, brands, and businesses.
+    </p>
+
+    <div class="buttons">
+      <a class="btn" href="https://www.instagram.com/its_reykee" target="_blank">Instagram</a>
+      <a class="btn" href="https://www.tiktok.com/@its_reykee" target="_blank">TikTok</a>
+      <a class="btn" href="https://youtube.com/@reykee" target="_blank">YouTube</a>
+      <a class="btn" href="https://audiomack.com/reykee" target="_blank">Audiomack</a>
+      <a class="btn" href="https://www.boomplay.com/share/artist/66648977" target="_blank">Boomplay</a>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+  <p class="text">
+    Born on October 20, 1998, I am a Tanzanian artist, songwriter,
+    website & app developer, and entrepreneur professionally known
+    as Reykee.
+    <br><br>
+    My sound, <strong>Afrobongo</strong>, fuses Swahili heritage with
+    Afrobeat, Dancehall, Pop, and Reggae. Beyond music, I build
+    scalable digital platforms and brands that merge creativity,
+    technology, and real-world impact.
+  </p>
+</section>
+
+<!-- BUSINESSES -->
+<section>
+  <h2>Businesses & Brands</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Reggy Tronix</h3>
+      <p>
+        Electronics & technology company specializing in smartphones,
+        laptops, gadgets, accessories, repairs, and digital solutions.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Reggy Luxe</h3>
+      <p>
+        Beauty and luxury brand offering premium beauty products,
+        hair, lifestyle services, and aesthetics.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Oddsgram</h3>
+      <p>
+        A digital betting insights and analysis platform designed
+        to simplify betting data through technology.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- MUSIC -->
+<section>
+  <h2>Music Platforms</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>YouTube</h3>
+      <p>Official music videos & releases</p>
+      <a href="https://youtube.com/@reykee" target="_blank">Visit Channel</a>
+    </div>
+
+    <div class="card">
+      <h3>Audiomack</h3>
+      <p>Stream and discover my sound</p>
+      <a href="https://audiomack.com/reykee" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="card">
+      <h3>Boomplay</h3>
+      <p>Official artist profile</p>
+      <a href="https://www.boomplay.com/share/artist/66648977" target="_blank">Open Profile</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 Reykee • Artist • Developer • Entrepreneur • All Rights Reserved
+</footer>
+
+</body>
+</html>
